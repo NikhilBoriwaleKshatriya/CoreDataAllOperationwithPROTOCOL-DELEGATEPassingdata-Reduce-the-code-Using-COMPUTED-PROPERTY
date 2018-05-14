@@ -15,6 +15,12 @@
 		F15E792720A5C34500B42672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15E792520A5C34500B42672 /* LaunchScreen.storyboard */; };
 		F15E793220A5C34500B42672 /* CoreDataAllOperationwithPROTOCOL_DELEGATEPassingdataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E793120A5C34500B42672 /* CoreDataAllOperationwithPROTOCOL_DELEGATEPassingdataTests.swift */; };
 		F15E793D20A5C34500B42672 /* CoreDataAllOperationwithPROTOCOL_DELEGATEPassingdataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E793C20A5C34500B42672 /* CoreDataAllOperationwithPROTOCOL_DELEGATEPassingdataUITests.swift */; };
+		F15E794C20A5C4B200B42672 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E794A20A5C4B200B42672 /* Student+CoreDataClass.swift */; };
+		F15E794D20A5C4B200B42672 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E794B20A5C4B200B42672 /* Student+CoreDataProperties.swift */; };
+		F15E795020A5C51700B42672 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15E794F20A5C51600B42672 /* CoreData.framework */; };
+		F15E795220A5C6EB00B42672 /* DateBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E795120A5C6EB00B42672 /* DateBaseHelper.swift */; };
+		F15E795420A5D78F00B42672 /* secondVCr.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E795320A5D78F00B42672 /* secondVCr.swift */; };
+		F15E795620A5D88B00B42672 /* mytablecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15E795520A5D88B00B42672 /* mytablecell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		F15E793820A5C34500B42672 /* CoreDataAllOperationwithPROTOCOL&DELEGATEPassingdataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreDataAllOperationwithPROTOCOL&DELEGATEPassingdataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15E793C20A5C34500B42672 /* CoreDataAllOperationwithPROTOCOL_DELEGATEPassingdataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataAllOperationwithPROTOCOL_DELEGATEPassingdataUITests.swift; sourceTree = "<group>"; };
 		F15E793E20A5C34500B42672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15E794A20A5C4B200B42672 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F15E794B20A5C4B200B42672 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F15E794F20A5C51600B42672 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F15E795120A5C6EB00B42672 /* DateBaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateBaseHelper.swift; sourceTree = "<group>"; };
+		F15E795320A5D78F00B42672 /* secondVCr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondVCr.swift; sourceTree = "<group>"; };
+		F15E795520A5D88B00B42672 /* mytablecell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mytablecell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F15E795020A5C51700B42672 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,7 @@
 				F15E793020A5C34500B42672 /* CoreDataAllOperationwithPROTOCOL&DELEGATEPassingdataTests */,
 				F15E793B20A5C34500B42672 /* CoreDataAllOperationwithPROTOCOL&DELEGATEPassingdataUITests */,
 				F15E791720A5C34500B42672 /* Products */,
+				F15E794E20A5C51600B42672 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +115,11 @@
 			children = (
 				F15E791920A5C34500B42672 /* AppDelegate.swift */,
 				F15E791B20A5C34500B42672 /* ViewController.swift */,
+				F15E795320A5D78F00B42672 /* secondVCr.swift */,
+				F15E795520A5D88B00B42672 /* mytablecell.swift */,
+				F15E795120A5C6EB00B42672 /* DateBaseHelper.swift */,
+				F15E794A20A5C4B200B42672 /* Student+CoreDataClass.swift */,
+				F15E794B20A5C4B200B42672 /* Student+CoreDataProperties.swift */,
 				F15E791D20A5C34500B42672 /* Main.storyboard */,
 				F15E792320A5C34500B42672 /* Assets.xcassets */,
 				F15E792520A5C34500B42672 /* LaunchScreen.storyboard */,
@@ -126,6 +145,14 @@
 				F15E793E20A5C34500B42672 /* Info.plist */,
 			);
 			path = "CoreDataAllOperationwithPROTOCOL&DELEGATEPassingdataUITests";
+			sourceTree = "<group>";
+		};
+		F15E794E20A5C51600B42672 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F15E794F20A5C51600B42672 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +290,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F15E792220A5C34500B42672 /* CoreDataAllOperationwithPROTOCOL_DELEGATEPassingdata.xcdatamodeld in Sources */,
+				F15E794C20A5C4B200B42672 /* Student+CoreDataClass.swift in Sources */,
+				F15E795620A5D88B00B42672 /* mytablecell.swift in Sources */,
 				F15E791C20A5C34500B42672 /* ViewController.swift in Sources */,
 				F15E791A20A5C34500B42672 /* AppDelegate.swift in Sources */,
+				F15E795220A5C6EB00B42672 /* DateBaseHelper.swift in Sources */,
+				F15E794D20A5C4B200B42672 /* Student+CoreDataProperties.swift in Sources */,
+				F15E795420A5D78F00B42672 /* secondVCr.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
